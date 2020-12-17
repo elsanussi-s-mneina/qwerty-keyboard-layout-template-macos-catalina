@@ -30,7 +30,7 @@ For more information, please refer to <http://unlicense.org>
 -->
 
 <keyboard group="126" id="-722" name="basicQWERTY">
-	<!-- version 0.82. We do not put the version in the name because it adds extra steps when upgrading the layout.  -->
+	<!-- version 0.83. We do not put the version in the name because it adds extra steps when upgrading the layout.  -->
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
 	</layouts>
@@ -187,7 +187,6 @@ For more information, please refer to <http://unlicense.org>
 			<key code="38" output="J"/>
 			<key code="40" output="K"/>
 			<key code="37" output="L"/>
-			<key code="41" output=":"/>
 
 		<!-- Fourth row from top, from left to right -->
 			<key code="6" output="Z"/>
