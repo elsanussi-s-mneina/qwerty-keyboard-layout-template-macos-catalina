@@ -24,4 +24,20 @@ https://developer.apple.com/library/archive/technotes/tn2056/_index.html
 ## History
 Started on Decemeber 17, 2020. Intended to become a template for QWERTY keyboards in the public domain. Based on a previous template for DVORAK layouts.
 
+## Almost what you are looking for?
+### Need a different macro-layout from Dvorak?
+- [Go to Dvorak version][dvorak-keyboard-layout-mac-template].
+- [Go to Colemak version][colemak-keyboard-layout-mac-template].
+
+
+[qwerty-keyboard-layout-mac-template]: https://github.com/elsanussi-s-mneina/qwerty-keyboard-layout-template-macos-catalina
+
+[colemak-keyboard-layout-mac-template]: https://github.com/elsanussi-s-mneina/colemak-keyboard-layout-template-macos-catalina
+
+[qwerty-keyboard-layout-mac-template]: https://github.com/elsanussi-s-mneina/qwerty-keyboard-layout-template-macos-catalina
+
+[dvorak-keyboard-layout-mac-template]: https://github.com/elsanussi-s-mneina/dvorak-keyboard-layout-template-macos-catalina
+
+
+
 [acute-vowels-on-option branch]: https://github.com/elsanussi-s-mneina/qwerty-keyboard-layout-template-macos-catalina/tree/acute-vowels-on-option
