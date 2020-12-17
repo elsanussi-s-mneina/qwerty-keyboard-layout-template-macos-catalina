@@ -29,7 +29,7 @@ For more information, please refer to <http://unlicense.org>
 
 -->
 
-<keyboard group="126" id="-878" name="basicDVORAK">
+<keyboard group="126" id="-722" name="basicQWERTY">
 	<!-- version 0.82. We do not put the version in the name because it adds extra steps when upgrading the layout.  -->
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
@@ -59,48 +59,48 @@ For more information, please refer to <http://unlicense.org>
 			<key code="28" output="8"/>
 			<key code="25" output="9"/>
 			<key code="29" output="0"/>
-			<key code="27" output="["/>
-			<key code="24" output="]"/>
+			<key code="27" output="-"/>
+			<key code="24" output="="/>
 
 		<!-- Second row from top, from left to right -->
-			<key code="12" output="&#39;"/> <!-- Single quote -->
-			<key code="13" output=","/>
-			<key code="14" output="."/>
-			<key code="15" output="p"/>
-			<key code="17" output="y"/>
-			<key code="16" output="f"/>
-			<key code="32" output="g"/>
-			<key code="34" output="c"/>
-			<key code="31" output="r"/>
-			<key code="35" output="l"/>
-			<key code="33" output="/"/>
-			<key code="30" output="="/>
+			<key code="12" output="q"/>
+			<key code="13" output="w"/>
+			<key code="14" output="e"/>
+			<key code="15" output="r"/>
+			<key code="17" output="t"/>
+			<key code="16" output="y"/>
+			<key code="32" output="u"/>
+			<key code="34" output="i"/>
+			<key code="31" output="o"/>
+			<key code="35" output="p"/>
+			<key code="33" output="["/>
+			<key code="30" output="]"/>
 			<key code="42" output="\"/>
 
 		<!-- Third row from top, from left to right -->
 			<key code="0" output="a"/>
-			<key code="1" output="o"/>
-			<key code="2" output="e"/>
-			<key code="3" output="u"/>
-			<key code="5" output="i"/>
-			<key code="4" output="d"/>
-			<key code="38" output="h"/>
-			<key code="40" output="t"/>
-			<key code="37" output="n"/>
-			<key code="41" output="s"/>
-			<key code="39" output="-"/>
+			<key code="1" output="s"/>
+			<key code="2" output="d"/>
+			<key code="3" output="f"/>
+			<key code="5" output="g"/>
+			<key code="4" output="h"/>
+			<key code="38" output="j"/>
+			<key code="40" output="k"/>
+			<key code="37" output="l"/>
+			<key code="41" output=";"/>
+			<key code="39" output="&#39;"/> <!-- Single quote -->
 
 		<!-- Fourth row from top, from left to right -->
-			<key code="6" output=";"/>
-			<key code="7" output="q"/>
-			<key code="8" output="j"/>
-			<key code="9" output="k"/>
-			<key code="11" output="x"/>
-			<key code="45" output="b"/>
+			<key code="6" output="z"/>
+			<key code="7" output="x"/>
+			<key code="8" output="c"/>
+			<key code="9" output="v"/>
+			<key code="11" output="b"/>
+			<key code="45" output="n"/>
 			<key code="46" output="m"/>
-			<key code="43" output="w"/>
-			<key code="47" output="v"/>
-			<key code="44" output="z"/>
+			<key code="43" output=","/>
+			<key code="47" output="."/>
+			<key code="44" output="/"/>
 		</keyMap>
 		<keyMap index="1" baseMapSet="mapSet" baseIndex="3">
 		<!-- When the user holds down shift this is what happens -->
@@ -116,48 +116,48 @@ For more information, please refer to <http://unlicense.org>
 			<key code="28" output="*"/>
 			<key code="25" output="("/>
 			<key code="29" output=")"/>
-			<key code="27" output="{"/>
-			<key code="24" output="}"/>
+			<key code="27" output="_"/>
+			<key code="24" output="+"/>
 
 		<!-- Second row from top, from left to right -->
-			<key code="12" output="&#34;"/> <!-- the output is the double quote -->
-			<key code="13" output="&#60;"/> <!-- the output is the less than sign -->
-			<key code="14" output="&#62;"/> <!-- the output is the greater than sign -->
-			<key code="15" output="P"/>
-			<key code="17" output="Y"/>
-			<key code="16" output="F"/>
-			<key code="32" output="G"/>
-			<key code="34" output="C"/>
-			<key code="31" output="R"/>
-			<key code="35" output="L"/>
-			<key code="33" output="?"/>
-			<key code="30" output="+"/>
+			<key code="12" output="Q"/>
+			<key code="13" output="W"/>
+			<key code="14" output="E"/>
+			<key code="15" output="R"/>
+			<key code="17" output="T"/>
+			<key code="16" output="Y"/>
+			<key code="32" output="U"/>
+			<key code="34" output="I"/>
+			<key code="31" output="O"/>
+			<key code="35" output="P"/>
+			<key code="33" output="{"/>
+			<key code="30" output="}"/>
 			<key code="42" output="|"/>
 
 		<!-- Third row from top, from left to right -->
 			<key code="0" output="A"/>
-			<key code="1" output="O"/>
-			<key code="2" output="E"/>
-			<key code="3" output="U"/>
-			<key code="5" output="I"/>
-			<key code="4" output="D"/>
-			<key code="38" output="H"/>
-			<key code="40" output="T"/>
-			<key code="37" output="N"/>
-			<key code="41" output="S"/>
-			<key code="39" output="_"/>
+			<key code="1" output="S"/>
+			<key code="2" output="D"/>
+			<key code="3" output="F"/>
+			<key code="5" output="G"/>
+			<key code="4" output="H"/>
+			<key code="38" output="J"/>
+			<key code="40" output="K"/>
+			<key code="37" output="L"/>
+			<key code="41" output=":"/>
+			<key code="39" output="&#34;"/> <!-- the output is the double quote -->
 
 		<!-- Fourth row from top, from left to right -->
-			<key code="6" output=":"/>
-			<key code="7" output="Q"/>
-			<key code="8" output="J"/>
-			<key code="9" output="K"/>
-			<key code="11" output="X"/>
-			<key code="45" output="B"/>
+			<key code="6" output="Z"/>
+			<key code="7" output="X"/>
+			<key code="8" output="C"/>
+			<key code="9" output="V"/>
+			<key code="11" output="B"/>
+			<key code="45" output="N"/>
 			<key code="46" output="M"/>
-			<key code="43" output="W"/>
-			<key code="47" output="V"/>
-			<key code="44" output="Z"/>
+			<key code="43" output="&#60;"/> <!-- the output is the less than sign -->
+			<key code="47" output="&#62;"/> <!-- the output is the greater than sign -->
+			<key code="44" output="?"/>
 		</keyMap>
 		<keyMap index="2" baseMapSet="mapSet" baseIndex="0">
 		<!-- Caps lock -->
@@ -166,36 +166,37 @@ For more information, please refer to <http://unlicense.org>
 		<!-- Top row, from left to right -->
 
 		<!-- Second row from top, from left to right -->
-			<key code="15" output="P"/>
-			<key code="17" output="Y"/>
-			<key code="16" output="F"/>
-			<key code="32" output="G"/>
-			<key code="34" output="C"/>
-			<key code="31" output="R"/>
-			<key code="35" output="L"/>
+			<key code="12" output="Q"/>
+			<key code="13" output="W"/>
+			<key code="14" output="E"/>
+			<key code="15" output="R"/>
+			<key code="17" output="T"/>
+			<key code="16" output="Y"/>
+			<key code="32" output="U"/>
+			<key code="34" output="I"/>
+			<key code="31" output="O"/>
+			<key code="35" output="P"/>
 
 		<!-- Third row from top, from left to right -->
 			<key code="0" output="A"/>
-			<key code="1" output="O"/>
-			<key code="2" output="E"/>
-			<key code="3" output="U"/>
-			<key code="5" output="I"/>
-			<key code="4" output="D"/>
-			<key code="38" output="H"/>
-			<key code="40" output="T"/>
-			<key code="37" output="N"/>
-			<key code="41" output="S"/>
+			<key code="1" output="S"/>
+			<key code="2" output="D"/>
+			<key code="3" output="F"/>
+			<key code="5" output="G"/>
+			<key code="4" output="H"/>
+			<key code="38" output="J"/>
+			<key code="40" output="K"/>
+			<key code="37" output="L"/>
+			<key code="41" output=":"/>
 
 		<!-- Fourth row from top, from left to right -->
-			<key code="7" output="Q"/>
-			<key code="8" output="J"/>
-			<key code="9" output="K"/>
-			<key code="11" output="X"/>
-			<key code="45" output="B"/>
+			<key code="6" output="Z"/>
+			<key code="7" output="X"/>
+			<key code="8" output="C"/>
+			<key code="9" output="V"/>
+			<key code="11" output="B"/>
+			<key code="45" output="N"/>
 			<key code="46" output="M"/>
-			<key code="43" output="W"/>
-			<key code="47" output="V"/>
-			<key code="44" output="Z"/>
 		</keyMap>
 		<keyMap index="3">
 			<!-- This keymap supports proper function of the tab key, the arrow keys, and other important control keys. -->
