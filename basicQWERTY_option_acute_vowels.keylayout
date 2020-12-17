@@ -29,7 +29,7 @@ For more information, please refer to <http://unlicense.org>
 
 -->
 
-<keyboard group="126" id="-722" name="basicQWERTY">
+<keyboard group="126" id="-722" name="basicQWERTY (option acute vowels)">
 	<!-- version 0.83. We do not put the version in the name because it adds extra steps when upgrading the layout.  -->
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
@@ -43,6 +43,15 @@ For more information, please refer to <http://unlicense.org>
 		</keyMapSelect>
 		<keyMapSelect mapIndex="2">
 			<modifier keys="caps"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="4">
+			<modifier keys="anyOption"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="5">
+			<modifier keys="anyOption shift"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="5">
+			<modifier keys="anyOption caps shift?"/>
 		</keyMapSelect>
 	</modifierMap>
 	<keyMapSet id="mapSet">
@@ -259,5 +268,42 @@ For more information, please refer to <http://unlicense.org>
 			<key code="125" output="&#x001F;"/>
 			<key code="124" output="&#x001D;"/>
 		</keyMap>
+		<keyMap index="4" baseMapSet="mapSet" baseIndex="0">
+		<!-- When the user holds down the option key this is what happens -->
+		<!-- If nothing is defined in this keymap for the key that is pressed, it defaults to what happens when the key is pressed without an option is pressed. That is what setting baseIndex to 1 here does. -->
+
+		<!-- Top row, from left to right -->
+
+		<!-- Second row from top, from left to right -->
+			<key code="14" output="é"/>
+			<key code="16" output="ý"/>
+			<key code="32" output="ú"/>
+			<key code="34" output="í"/>
+			<key code="31" output="ó"/>
+
+		<!-- Third row from top, from left to right -->
+			<key code="0" output="á"/>
+
+		<!-- Fourth row from top, from left to right -->
+		</keyMap>
+		<keyMap index="5" baseMapSet="mapSet" baseIndex="1">
+		<!-- When the user holds down the shift and option key this is what happens -->
+		<!-- it defaults to what happens when the shift key is pressed -->
+
+		<!-- Top row, from left to right -->
+
+		<!-- Second row from top, from left to right -->
+			<key code="14" output="É"/>
+			<key code="16" output="Ý"/>
+			<key code="32" output="Ú"/>
+			<key code="34" output="Í"/>
+			<key code="31" output="Ó"/>
+
+		<!-- Third row from top, from left to right -->
+			<key code="0" output="Á"/>
+
+		<!-- Fourth row from top, from left to right -->
+		</keyMap>
+
 	</keyMapSet>
 </keyboard>
