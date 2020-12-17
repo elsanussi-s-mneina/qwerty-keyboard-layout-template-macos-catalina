@@ -29,7 +29,7 @@ For more information, please refer to <http://unlicense.org>
 
 -->
 
-<keyboard group="126" id="-722" name="basicQWERTY (option acute vowels)">
+<keyboard group="126" id="-723" name="basicQWERTY (option macron vowels)">
 	<!-- version 0.83. We do not put the version in the name because it adds extra steps when upgrading the layout.  -->
 	<layouts>
 		<layout first="0" last="0" modifiers="commonModifiers" mapSet="mapSet"/>
@@ -275,14 +275,14 @@ For more information, please refer to <http://unlicense.org>
 		<!-- Top row, from left to right -->
 
 		<!-- Second row from top, from left to right -->
-			<key code="14" output="é"/>
-			<key code="16" output="ý"/>
-			<key code="32" output="ú"/>
-			<key code="34" output="í"/>
-			<key code="31" output="ó"/>
+			<key code="14" output="ē"/>
+			<key code="16" output="ȳ"/>
+			<key code="32" output="ū"/>
+			<key code="34" output="ī"/>
+			<key code="31" output="ō"/>
 
 		<!-- Third row from top, from left to right -->
-			<key code="0" output="á"/>
+			<key code="0" output="ā"/>
 
 		<!-- Fourth row from top, from left to right -->
 		</keyMap>
@@ -293,14 +293,14 @@ For more information, please refer to <http://unlicense.org>
 		<!-- Top row, from left to right -->
 
 		<!-- Second row from top, from left to right -->
-			<key code="14" output="É"/>
-			<key code="16" output="Ý"/>
-			<key code="32" output="Ú"/>
-			<key code="34" output="Í"/>
-			<key code="31" output="Ó"/>
+			<key code="14" output="Ē"/>
+			<key code="16" output="Ȳ"/>
+			<key code="32" output="Ū"/>
+			<key code="34" output="Ī"/>
+			<key code="31" output="Ō"/>
 
 		<!-- Third row from top, from left to right -->
-			<key code="0" output="Á"/>
+			<key code="0" output="Ā"/>
 
 		<!-- Fourth row from top, from left to right -->
 		</keyMap>

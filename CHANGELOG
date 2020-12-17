@@ -7,3 +7,6 @@ Add support for caps lock. Enter key works properly again.
 
 2020-12-17, version 0.83, (option acute branch)
 Add ability to type the characters a,o,e,u,i,y but with the acute diacritic. Specificially the characters áóéúíý and ÁÓÉÚÍÝ. 
+
+2020-12-17, version 0.84, (option macron branch)
+Add ability to type the characters a,o,e,u,i,y but with the macron diacritic. Specificially the characters āōēūīȳ and ĀŌĒŪĪȲ. 
