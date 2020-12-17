@@ -4,8 +4,13 @@
 
 ## More specialized templates included in this repository.
 ### acute vowels on option branch
-Shows a way to program characters so that they will be written when when a key is pressed while an option key is held down. These characters are the vowels with acute characters lowercase and uppercase. I.e. ááóéúíý
+Shows a way to program characters so that they will be written when when a key is pressed while an option key is held down. These characters are the vowels with acute characters lowercase and uppercase. I.e. áóéúíý
 [Go to acute-vowels-on-option branch][acute-vowels-on-option branch].
+
+### macron vowels on option branch
+... Hold the option key to access the vowels with macron characters lowercase and uppercase. I.e. āēīōūȳ
+[Go to macron-vowels-on-option branch][macron-vowels-on-option branch].
+
 
 ## Main Reference used:
 Technical Note TN2056,
@@ -41,3 +46,4 @@ Started on Decemeber 17, 2020. Intended to become a template for QWERTY keyboard
 
 
 [acute-vowels-on-option branch]: https://github.com/elsanussi-s-mneina/qwerty-keyboard-layout-template-macos-catalina/tree/acute-vowels-on-option
+[macron-vowels-on-option branch]: https://github.com/elsanussi-s-mneina/qwerty-keyboard-layout-template-macos-catalina/tree/macron-vowels-on-option
