@@ -10,6 +10,9 @@ Shows a way to program characters so that they will be written when when a key i
 ### macron vowels on option branch
 ... Hold the option key to access the vowels with macron characters lowercase and uppercase. I.e. āēīōūȳ
 [Go to macron-vowels-on-option branch][macron-vowels-on-option branch].
+### grave dead key branch
+... A way to type grave accents by typing two keys in a row. I.e. àèìòùỳ
+[Go to grave-dead-key branch][grave-dead-key branch].
 
 
 ## Main Reference used:
@@ -47,3 +50,6 @@ Started on Decemeber 17, 2020. Intended to become a template for QWERTY keyboard
 
 [acute-vowels-on-option branch]: https://github.com/elsanussi-s-mneina/qwerty-keyboard-layout-template-macos-catalina/tree/acute-vowels-on-option
 [macron-vowels-on-option branch]: https://github.com/elsanussi-s-mneina/qwerty-keyboard-layout-template-macos-catalina/tree/macron-vowels-on-option
+
+
+[grave-dead-key branch]: https://github.com/elsanussi-s-mneina/dvorak-keyboard-layout-template-macos-catalina/tree/grave-dead-key
