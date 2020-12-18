@@ -3,3 +3,6 @@ Apparently if some keys are not set to a value (such as the arrow key) they will
 
 2020-11-26, version 0.82
 Add support for caps lock. Enter key works properly again.
+
+2020-12-17, version 0.82 (grave deadkey branch)
+Implement a deadkey on the top left key for writing vowels with a grave accent. Specicifically the following vowels: àèìòùỳ ÀÈÌÒÙỲ.
